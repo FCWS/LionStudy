@@ -80,7 +80,7 @@ public class MainActivity extends FragmentActivity {
         //4、提交事物
         ft.commit();
     }
-    //根据位置得到对应的页面  上传GitHub测试 hello
+    //根据位置得到对应的页面  上传GitHub测试 hello  22
     public BasePager getBasePager() {
         BasePager basePager =basePagers.get(position);
         if (basePager != null && !basePager.isInitData){
