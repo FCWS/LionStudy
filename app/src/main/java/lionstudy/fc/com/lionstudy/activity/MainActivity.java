@@ -1,20 +1,13 @@
 package lionstudy.fc.com.lionstudy.activity;
 
-import android.app.Activity;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.RadioGroup;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -87,7 +80,7 @@ public class MainActivity extends FragmentActivity {
         //4、提交事物
         ft.commit();
     }
-    //根据位置得到对应的页面
+    //根据位置得到对应的页面  上传GitHub测试
     public BasePager getBasePager() {
         BasePager basePager =basePagers.get(position);
         if (basePager != null && !basePager.isInitData){
